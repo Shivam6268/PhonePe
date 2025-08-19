@@ -1,0 +1,1665 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-size: "Roboto";
+    position: relative;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+nav {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+nav div {
+    display: flex;
+    gap: 40px;
+
+    p {
+        font-size: 17px;
+        font-weight: 550;
+
+    }
+}
+
+nav button {
+    display: none;
+}
+
+/*swipeer*/
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+
+    swiper-container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #444;
+        display: flex;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+    swiper-slide img {
+        background-color: transparent;
+        width: 450px;
+        height: 350px;
+    }
+
+    swiper-slide h1 {
+        font-size: 30px;
+        font-weight: 400;
+        color: bisque;
+        padding: 20px 0;
+    }
+
+    swiper-slide h2 {
+        font-size: 40px;
+        font-weight: 500;
+        color: bisque;
+        padding: 10px 0;
+    }
+
+    swiper-slide p {
+        font-size: 15px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    swiper-slide button {
+        font-size: 14px;
+        font-weight: 400;
+        color: #0b0b0b;
+        background-color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;
+        z-index: 2;
+    }
+
+
+    #image {
+        width: 230px;
+        height: 70px;
+    }
+
+    .bg-img {
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg-image_1 {
+        background-image: url("./images/bg_image_1.svg");
+    }
+
+    .bg-image_2 {
+        background-image: url("./images/bg_image_2.svg");
+    }
+
+    .bg-image_3 {
+        background-image: url("./images/bg_image_3.svg");
+        opacity: 0.8;
+    }
+
+    .bg-image_4 {
+        background-image: url("./images/bg_image_4.svg");
+    }
+
+
+}
+
+
+
+/* invest insurace container*/
+
+.investment-insurence-landing-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.investment-insurence-landing {
+    display: flex;
+    flex-direction: column;
+    background-color: fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+    img {
+        width: 100px;
+        align-self: center;
+        margin: 20px 0;
+    }
+
+    h1 {
+        font-size: 30px;
+        padding: 5px 0;
+    }
+
+    i {
+
+        padding-top: 50px;
+        align-self: flex-end;
+    }
+}
+
+/*Convenience your fingertips*/
+
+.Convenience-fingertips {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0;
+
+    img {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+.swiper-bg-container {
+    padding: 100px 0;
+    width: 100%;
+    margin-top: 50px;
+
+
+    swiper-container {
+        width: 100%;
+        height: 200px;
+        margin: 0;
+
+    }
+
+
+    swiper-slide {
+        background-color: transparent;
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+
+    }
+
+    swiper-slide .swiper1 {
+        height: 150px;
+        border-radius: 70px;
+        text-align: center;
+        font-size: 18px;
+        background: transparent;
+        border: 1px solid #474646;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    swiper-slide .swiper2 {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        padding: 0 0px;
+        margin: 0 7px;
+    }
+
+    swiper-slide .swiper3 {
+        height: 70px;
+        width: 70px;
+        border-radius: 10% 50% 50% 10%/10% 50% 50% 10%;
+        padding: 0 0px;
+        margin: 0 7px;
+    }
+
+    swiper-slide .swiper4 {
+        height: 70px;
+        width: 70px;
+        border-radius: 50% 10% 10% 50%/50% 10% 10% 50%;
+        padding: 0 0px;
+        margin: 0 7px;
+    }
+
+    swiper-slide .swiper5 {
+        height: 50px;
+        width: 50px;
+        padding: 0 0px;
+        transform: rotate(45deg);
+        margin: 0 7px;
+    }
+
+
+    .swiper1 img {
+        width: 100px;
+        padding: 30px;
+        border-radius: 60%;
+        margin-top: 30px;
+    }
+
+    swiper-slide h1 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #0e0e0e;
+    }
+
+}
+
+
+
+
+/*Travel Stays Commute*/
+
+.travel-stays-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 250px 0;
+    gap: 20px;
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+        color: gray;
+    }
+
+    button {
+        padding: 10px 20px;
+        border-radius: 15px;
+        border: none;
+        background-color: #5E2B9D;
+        color: #fff;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 30px 0px;
+        display: flex;
+        gap: 30px;
+    }
+
+    ul li {
+        height: 250px;
+        width: 250px;
+        padding: 20px;
+        background-color: #FAFAFA;
+        border: none;
+        border-radius: 20px;
+        position: relative;
+        border: 1px solid rgba(154, 150, 150, 0.795);
+    }
+
+    img {
+        position: absolute;
+        left: 150px;
+        bottom: 20px;
+        width: 100px;
+    }
+
+
+
+}
+
+/*PhonePe International*/
+
+.phonePe-international {
+    /* position: relative; */
+    width: 93%;
+    margin: 100px 50px;
+    min-height: 50vh;
+    background-color: #3B2968;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+
+    h1 {
+        font-size: 40px;
+        padding-top: 100px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .countaries {
+        display: flex;
+        gap: 30px;
+        margin: 70px;
+    }
+
+    img {
+        width: 150px;
+    }
+
+    .earth-container {
+        display: flex;
+        width: 40%;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 500px;
+        gap: 40px;
+
+        div {
+            margin: 0px;
+        }
+
+
+        .earch-left-small {
+            background-color: #C4A0EC;
+            height: 60px;
+            width: 30px;
+            border-radius: 100% 0 0 100% / 50% 0 0 50%;
+        }
+
+        .earch-right-small {
+            background-color: #C4A0EC;
+            height: 60px;
+            width: 30px;
+            border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+        }
+
+        .earch-left-large {
+            background-color: #9967D1;
+            height: 100px;
+            width: 40px;
+            border-radius: 100% 0 0 100% / 50% 0 0 50%;
+        }
+
+        .earch-right-large {
+            background-color: #9967D1;
+            height: 100px;
+            width: 40px;
+            border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+        }
+    }
+
+}
+
+
+
+/*Payments on PhonePe are safe*/
+
+.payments-phonePe-safe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+    .index-module {
+        width: 50%;
+    }
+
+    .index-module-text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-size: 40px;
+            padding: 10px;
+        }
+
+        p {
+            font-size: 20px;
+            color: gray;
+        }
+    }
+
+
+}
+
+.payments-phonePe-safe {
+
+    swiper-container {
+        width: 100%;
+        height: 60vh;
+        margin: 70px 0;
+
+    }
+
+
+    swiper-slide {
+        background-color: transparent;
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+
+    }
+
+    swiper-slide .swiper_img {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 100px;
+    }
+
+    swiper-slide button {
+        position: absolute;
+        left: 350px;
+        top: 170px;
+        background-color: white;
+        border-radius: 50%;
+        border: none;
+        padding: 20px;
+    }
+
+    swiper-slide button img {
+        width: 20px;
+
+    }
+
+
+}
+
+.desktop-view {
+    display: block;
+}
+
+.mobile-view {
+    display: none;
+}
+
+
+
+
+/* start saving */
+
+.start-saving {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+}
+
+
+.start-saving-div1 {
+    display: flex;
+    margin: 10px;
+    width: 80%;
+    height: 200px;
+    gap: 30px;
+    background-color: #F8F8F8;
+    border: 2px solid #444;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+
+
+    .first {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        height: 200px;
+        background-color: #fff;
+        border: 2px solid #444;
+        border-radius: 32% 30% 30% 37% / 45% 50% 50% 45%;
+    }
+
+    .second {
+        display: flex;
+        align-items: center;
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+/* PhonePe QR and devices Secure & reliable */
+
+.phone-pe-qr-decive {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0;
+    align-items: center;
+}
+
+.PhonePe-ppDevicesAnimWrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.phonePe-imageWrapper {
+    width: 70%;
+    background-image: linear-gradient(red, blue, grey);
+}
+
+.phonePe-rotate-gradient animation {
+    transform: translate(-50%, -50%) rotate(224.332deg);
+}
+
+.phonePe-ppHomeDevicesCircular {
+    display: block;
+    height: auto;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+
+.phonePe-devicesContainer {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 50;
+}
+
+.phonePe-devices {
+    position: relative;
+    left: 0;
+    top: -12%;
+
+    .phonePe-devive {
+        width: 250px;
+    }
+
+
+}
+
+.phonePe-tooltip {
+    left: 120px;
+    position: absolute;
+    top: 250px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 50px;
+    }
+}
+
+.phonePe-message {
+    font-size: 20px;
+}
+
+/*Empowering your
+business with PhonePe*/
+
+.empowering-business-phonePe {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px;
+    align-items: center;
+    width: 100%;
+    opacity: 0.9;
+    background-image: linear-gradient(to right, #DFF6F8, #FFE3B8);
+}
+
+.opacity-container {
+    width: 100%;
+    height: 20vh;
+    opacity: 0.8;
+    background-color: white;
+}
+
+.empowering-business-phonePe-second {
+    width: 80%;
+}
+
+.empowering-business-phonePe-first {
+    justify-self: flex-end;
+    width: 40%;
+
+    p {
+        font-size: 25px;
+        padding-bottom: 10px;
+        color: #444;
+    }
+}
+
+.empowering-business-phonePe-card-container {
+    margin: 50px 0;
+    position: relative;
+
+    .empowering-business-phonePe-card {
+        width: 100%;
+        height: 70vh;
+        background-color: white;
+        padding: 40px;
+        border-radius: 100px;
+        border: 1px solid #444;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .empowering-business-phonePe-card div {
+        width: 50%;
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            font-size: 25px;
+            font-weight: 200;
+            color: #444;
+            padding: 40px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: transparent;
+            border: none;
+            font-size: 20px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+
+
+
+}
+
+.card_2{
+    position: absolute;
+    top: 40px
+}
+.card_3{
+    position: absolute;
+    top: 40px
+}
+.card_4{
+    position: absolute;
+    top: 40px
+}
+.card_5{
+    position: absolute;
+    top: 40px
+}
+.card_6{
+    position: absolute;
+    top: 40px
+}
+
+
+/*Inovetion phonePe group*/
+
+.inpvetion-phonePe{
+    position: relative;
+}
+
+
+.inovetion-phonePe-group {
+    display: flex;
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: spin 10s linear infinite;
+
+}
+
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.inovetion-phonePe-group .circule {
+    border: 1px solid grey;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+
+}
+
+
+.container1 {
+    width: 40vw;
+    height: 80vh;
+}
+
+.container2 {
+    width: 30vw;
+    height: 60vh;
+}
+
+.container3 {
+    width: 20vw;
+    height: 40vh;
+}
+
+
+.inovetion-phonePe-logo {
+    width: 250px;
+    position: absolute;
+    top: 190px;
+    left: 630px;
+}
+
+
+.text {
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 450px;
+    left: 650px;
+    gap: 5px;
+    z-index: 5;
+
+    h2 {
+        font-size: 30px;
+        color: brown;
+
+    }
+
+    h1 {
+        color: rgb(12, 12, 12);
+    }
+
+    p {
+        font-size: 20px;
+        color: gray;
+    }
+}
+
+#color-circule {
+    position: absolute;
+    border-radius: 50%;
+    z-index: 7;
+}
+
+
+
+#circle-img {
+    z-index: 7;
+}
+
+.yellow-circule {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(207, 172, 17);
+    position: absolute;
+    left: 580px;
+    top: 100px
+}
+
+
+
+.orange-circule {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(224, 124, 11);
+    position: absolute;
+    left: 440px
+}
+
+.blue-circule {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(8, 162, 180);
+    position: absolute;
+    left: 870px;
+    top: 300px;
+}
+
+.share-market-img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 900px;
+    top: 470px;
+}
+
+.indus_img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 550px;
+    top: 500px;
+
+}
+
+.pinCode_img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 800px;
+    top: 50px;
+}
+
+
+/*Explore Phone pe*/
+
+.explore-phonepe-section {
+    background-image: linear-gradient(to bottom, #271949, #54359B);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px 0 0 0;
+    position: relative;
+
+    .secure-section {
+        position: absolute;
+        background-image: linear-gradient(to right, #967EDD, #6935AA);
+        min-height: 30vh;
+        width: 80%;
+        border-radius: 20px;
+        display: flex;
+        gap: 30px;
+        color: #FFF;
+        bottom: 43rem;
+    }
+
+    .secure-section> :first-child {
+        background-color: #3B2968;
+        width: 25%;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 40px 40% 40% 40px / 40px 100% 100% 40px;
+
+        img {
+            width: 200px;
+        }
+    }
+
+    .secure-section :nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #FFF;
+        position: absolute;
+        top: 170px;
+
+        img {
+            width: 300px;
+        }
+
+        p {
+            font-size: 25px;
+        }
+    }
+
+    .div2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        position: absolute;
+        top: 450px;
+        z-index: 3;
+
+
+        div {
+            display: flex;
+            gap: 300px;
+            color: rgb(253, 254, 251);
+
+            h1 {
+                font-size: 30px;
+
+                span {
+                    font-size: 20px;
+                    color: #a39f9f;
+                }
+            }
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+
+    }
+
+    .explore-phonepe-bg-image {
+        background-image: url("./images/Explore-phone-pe_image.svg");
+        height: 600px;
+        width: 80%;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 200px;
+        position: relative;
+        background-position: center center;
+        background-size: cover;
+    }
+
+
+
+}
+
+
+
+
+/* footer */
+
+footer {
+    background-color: #000;
+    min-height: 40vh;
+}
+
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    nav {
+        padding: 4px 20px;
+        justify-content: space-between;
+    }
+
+    nav div p {
+        display: none;
+    }
+
+    nav img {
+        width: 100px;
+    }
+
+    nav button {
+        display: block;
+        border: none;
+        background-color: transparent;
+    }
+
+    /* invest insurace container*/
+
+    .investment-insurence-landing-container {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .investment-insurence-landing {
+        flex-direction: row;
+        align-items: center;
+        padding: 0 15px;
+        gap: 20px;
+        height: 20vh;
+        width: 95%;
+
+        img {
+            width: 50px;
+        }
+
+        p {
+            font-size: 13px;
+        }
+
+        h1 {
+            font-size: 20px;
+        }
+
+        i {
+            padding-bottom: 50px;
+
+        }
+    }
+
+    /*Convenience your fingertips*/
+
+    .Convenience-fingertips {
+
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 90%;
+        }
+    }
+
+    .swiper-bg-container {
+        padding: 30px 0;
+
+
+        swiper-container {
+            width: 100%;
+            height: 119px;
+            margin: 0px;
+
+        }
+
+
+        swiper-slide {
+            margin: 10px 45px;
+            width: 500px;
+
+        }
+
+        swiper-slide .swiper1 {
+            height: 100px;
+            padding: 10px 30px;
+        }
+
+        swiper-slide .swiper2 {
+            height: 40px;
+            padding: 0px 0px;
+            width: 40px;
+            border-radius: 0px;
+            margin: 10px;
+            display: none;
+
+        }
+
+        swiper-slide .swiper3 {
+            height: 40px;
+            padding: 0px 0px;
+            width: 40px;
+            border-radius: 0px;
+            display: none;
+
+        }
+
+        swiper-slide .swiper4 {
+            height: 40px;
+            width: 80px;
+            display: none;
+
+        }
+
+        swiper-slide .swiper5 {
+            height: 40px;
+            padding: 0px 0px;
+            width: 40px;
+            border-radius: 0px;
+            display: none;
+        }
+
+
+        .swiper1 img {
+            width: 70px;
+            margin-top: 30px;
+            padding: 20px;
+        }
+
+        swiper-slide h1 {
+            font-size: 16px;
+        }
+
+    }
+
+
+    /*Travel Stays Commute*/
+
+    .travel-stays-section {
+
+        margin: 100px 20px;
+        align-items: center;
+
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 15px;
+            color: gray;
+        }
+
+
+        ul {
+            flex-direction: column;
+            width: 100%;
+        }
+
+        ul li {
+            height: 100px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+
+        }
+
+        h2 {
+            font-size: 16px;
+        }
+
+        img {
+            width: 70px;
+            left: 265px;
+        }
+
+
+
+    }
+
+    /*PhonePe International*/
+
+    .phonePe-international {
+        /* position: relative; */
+        width: 90%;
+        padding: 20px 10px;
+        gap: 10px;
+        align-self: center;
+        margin: 0 20px;
+
+        h1 {
+            font-size: 20px;
+            padding-top: 50px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        .countaries {
+            width: 100%;
+            gap: 30px;
+            margin: 70px 20px;
+            flex-wrap: wrap;
+        }
+
+        img {
+            width: 80px;
+        }
+
+        .earth-container {
+            width: 60%;
+            bottom: 476px;
+            gap: 10px;
+
+
+            .earch-left-small {
+                height: 40px;
+                width: 30px;
+            }
+
+            .earch-right-small {
+                height: 40px;
+                width: 30px;
+
+            }
+
+            .earch-left-large {
+                height: 70px;
+                width: 40px;
+
+            }
+
+            .earch-right-large {
+                height: 70px;
+                width: 40px;
+
+            }
+        }
+
+    }
+
+
+    /*Payments on PhonePe are safe*/
+
+    .payments-phonePe-safe {
+
+        margin: 30px 20px;
+
+        .index-module {
+            width: 100%;
+        }
+
+        .index-module-text {
+            width: 100%;
+            align-items: center;
+
+            h1 {
+                font-size: 25px;
+                padding: 10px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+
+    }
+
+    .payments-phonePe-safe {
+
+        swiper-slide {
+            margin: 0;
+        }
+
+
+        swiper-slide .swiper_img {
+            position: relative;
+        }
+
+        swiper-slide button {
+            position: absolute;
+            left: 140px;
+
+        }
+
+    }
+
+    .desktop-view {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+
+
+
+    /*start saving*/
+
+
+    .start-saving-div1 {
+        flex-direction: column;
+        height: 300px;
+        gap: 10px;
+        border-radius: 20% 20% 20% 20% / 20% 20% 20% 20%;
+
+
+        .first {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 130px;
+            background-color: #fff;
+            border: 2px solid #444;
+            border-radius: 19% 16% 30% 30% / 45% 46% 50% 45%;
+
+            img {
+                width: 70px;
+            }
+
+        }
+
+        .second {
+            padding: 30px;
+
+            p {
+                font-size: 20px;
+                color: #a39f9f;
+            }
+        }
+    }
+
+    /* PhonePe QR and devices Secure & reliable */
+
+    #phone-pe-qr-decive-heading {
+        padding-left: 35px;
+    }
+
+
+    .phonePe-imageWrapper {
+        width: 100%;
+        background-image: linear-gradient(red, blue, grey);
+    }
+
+    .phonePe-devices {
+        position: relative;
+        left: 0;
+        top: -12%;
+
+        .phonePe-devive {
+            width: 100px;
+        }
+
+    }
+
+    .phonePe-tooltip {
+        left: 65px;
+        position: absolute;
+        top: 100px;
+
+        img {
+            width: 26px;
+        }
+    }
+
+    .phonePe-message {
+        font-size: 13px;
+    }
+
+    /*Empowering your
+business with PhonePe*/
+
+
+    .empowering-business-phonePe {
+        background-image: linear-gradient(to bottom, #DFF6F8, #FFE3B8);
+    }
+
+  
+    .empowering-business-phonePe-first {
+        justify-self: center;
+        width: 96%;
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .empowering-business-phonePe-card-container {
+        margin: 50px 0;
+
+        .empowering-business-phonePe-card {
+            height: 60vh;
+            padding: 10px;
+            border-radius: 40px;
+            flex-direction: column;
+        }
+
+        .empowering-business-phonePe-card div {
+            width: 100%;
+            height: 50%;
+            padding: 30px 20px;
+
+            p {
+                font-size: 15px;
+                padding: 10px 0;
+            }
+
+            button {
+                padding: 10px 20px;
+                font-size: 16px;
+                gap: 5px;
+            }
+        }
+
+
+    }
+
+    #empowering-business-phonePe-card-text {
+        order: 2;
+    }
+
+    #empowering-business-phonePe-card-img {
+        order: 1;
+    }
+
+
+    /*Inovetion phonePe group mobile veiw*/
+
+     .container1 {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .container2 {
+        width: 70vw;
+        height: 40vh;
+    }
+
+    .container3 {
+        width: 45vw;
+        height: 25vh;
+    }
+
+    .inovetion-phonePe-logo {
+        width: 150px;
+        position: absolute;
+        top: 105px;
+        left: 110px;
+    }
+
+
+    .text {
+        opacity: 0.9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 240px;
+        left: 110px;
+        gap: 5px;
+        z-index: 5;
+
+        h2 {
+            font-size: 16px;
+            color: brown;
+            font-size: 20px;
+
+        }
+
+        h1 {
+            font-size: 16px;
+            color: rgb(12, 12, 12);
+        }
+
+        p {
+            font-size: 13px;
+            color: gray;
+        }
+    }
+
+    #color-circule {
+        position: absolute;
+        border-radius: 50%;
+        z-index: 7;
+    }
+
+
+
+    #circle-img {
+        z-index: 7;
+    }
+
+    .yellow-circule {
+        height: 30px;
+        width: 30px;
+        background-color: rgb(207, 172, 17);
+        position: absolute;
+        left: 300px;
+        top: 110px
+    }
+
+
+
+    .orange-circule {
+        height: 20px;
+        width: 20px;
+        background-color: rgb(224, 124, 11);
+        position: absolute;
+        left: 10px
+    }
+
+    .blue-circule {
+        height: 40px;
+        width: 40px;
+        background-color: rgb(8, 162, 180);
+        position: absolute;
+        left: 150px;
+        top: 66px;
+    }
+
+    .share-market-img {
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        left: 200px;
+        top: 300px;
+    }
+
+    .indus_img {
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        left: 100px;
+        top: 250px;
+
+    }
+
+    .pinCode_img {
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        left: 300px;
+        top: 50px;
+    }
+
+
+
+    /*Explore Phone pe*/
+
+    .explore-phonepe-section {
+        width: 100%;
+        margin: 200px 0px 0 0px;
+        height: 100vh;
+
+        .secure-section {
+            background-color: #C4A0EC;
+            background-image: url("");
+            gap: 50px;
+            bottom: 33rem;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .secure-section> :first-child {
+            background-color: transparent;
+            width: 25%;
+            height: 10vh;
+
+            img {
+                width: 200px;
+            }
+        }
+
+        .secure-section :nth-child(2) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .div1 {
+            flex-direction: column;
+            width: 50%;
+            top: 180px;
+            gap: 10px;
+
+            img {
+                width: 150px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .div2 {
+            top: 300px;
+
+
+
+            div {
+                flex-direction: column;
+                gap: 10px;
+                color: rgb(253, 254, 251);
+
+                h1 {
+                    font-size: 20px;
+
+                    span {
+                        font-size: 13px;
+                        color: #a39f9f;
+                    }
+                }
+            }
+
+            button {
+                padding: 10px 20px;
+                border: none;
+                border-radius: 10px;
+                margin-top: 40px;
+            }
+
+        }
+
+        .explore-phonepe-bg-image {
+            position: absolute;
+            height: 130px;
+            width: 100%;
+            ;
+            margin-top: 20px;
+            bottom: 0px;
+        }
+
+
+    }
+
+    /*footer*/
+
+
+    footer {
+        min-height: 20vh;
+    }
+}
